@@ -20,8 +20,8 @@ Figure: The hand sensor undergoes two movements. The first is of the same nature
 </p>
 <p align="center">
 Figure: Framework of the proposed multi-level abstraction architecture.
-The global learner $L_{\mathcal{S}}$ starts with an initial set of weights which are distributed to the local learners.
-The local learners $L_p$, one for each position $p$, learn the two vector components $z_{A}$ and $z_{P}$, by performing independently a set of gradient steps which allows to get a newer version. These new versions are used during the conciliation step which gives us a new version of the global learner, and subsequently a more robust position-independent representation.
+The global learner <img src="https://render.githubusercontent.com/render/math?math=L_{\mathcal{S}}"> starts with an initial set of weights which are distributed to the local learners.
+The local learners <img src="https://render.githubusercontent.com/render/math?math=L_p">, one for each position <img src="https://render.githubusercontent.com/render/math?math=p">, learn the two vector components <img src="https://render.githubusercontent.com/render/math?math=z_{A}"> and <img src="https://render.githubusercontent.com/render/math?math=z_{P}">, by performing independently a set of gradient steps which allows to get a newer version. These new versions are used during the conciliation step which gives us a new version of the global learner, and subsequently a more robust position-independent representation.
 </p>
 
 
@@ -82,7 +82,7 @@ Table: Summary of the recognition performances obtained using either the univers
     <img src="/figures/confusion-matrices_inferenceConfigurations.png" width="80%">
 </p>
 <p align="center">
-Figure: Confusion matrices obtained using different inference configurations. Combination of the universal components $z_{A}$ and: (a) *Torso*-specific components; (b) *Hand*-specific components; (c) *Bag*-specific components; (d) *Hips*-specific components.  The activities are numbered as *1:Still*, *2:Walk*, *3:Run*, *4:Bike*, *5:Car*, *6:Bus*, *7:Train*, and *8:Subway*.
+Figure: Confusion matrices obtained using different inference configurations. Combination of the universal components <img src="https://render.githubusercontent.com/render/math?math=z_{A}"> and: (a) _Torso_-specific components; (b) _Hand_-specific components; (c) _Bag_-specific components; (d) _Hips_-specific components.  The activities are numbered as _1:Still_, _2:Walk_, _3:Run_, _4:Bike_, _5:Car_, _6:Bus_, _7:Train_, and _8:Subway_.
 </p>
 
 
@@ -92,6 +92,6 @@ Figure: Confusion matrices obtained using different inference configurations. Co
 <p align="center">
 Table: Summary of the evaluation of inference configurations.
 Recognition performances (mean and std.) of the best inference configuration is shown along with the recognition performances (mean and std.) averaged over all evaluated configurations. Evaluations repeated 7 times.
-The subscripts of the position-specific representations are shortened as $z_{b}$ (*Bag*), $z_{ha}$ (*Hand*), $z_{hi}$ (*Hips*), and $z_{t}$ (*Torso*).
+The subscripts of the position-specific representations are shortened as <img src="https://render.githubusercontent.com/render/math?math=z_{b}"> (_Bag_), <img src="https://render.githubusercontent.com/render/math?math=z_{ha}"> (_Hand_), <img src="https://render.githubusercontent.com/render/math?math=z_{hi}"> (_Hips_), and <img src="https://render.githubusercontent.com/render/math?math=z_{t}"> (_Torso_).
 Performance of the baseline models are also displayed.
 </p>
