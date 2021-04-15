@@ -53,9 +53,17 @@ If you are using `pip` package manager, you can simply install all requirements 
 ## Running
 ### on your laptop:
 
-    python cnn_split_channels.py
+    python fl.py
 
-this will load the data and train the model defined inside `cnn_split_channels.py`. This same way, you can run other models.
+this will load the data and run the local learner, defined inside `model.py`, in a federated learning-like fashion. In the other hand, to train the local learner in a standard fashion, issue `python standard.py`.
+
+In order to display the usage, add `--help` option as:
+
+    python fl.py --help
+
+or
+
+    python standard.py --help
 
 ### via Microsoft NNI
 

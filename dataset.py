@@ -174,16 +174,13 @@ class DataReader(object):
 
 
 
-        55: 'Pressure',
-
-
-
+        # 55: 'Pre_m',
         56: 'Acc_m',
-        57: 'Gyr_m',
-        58: 'Mag_m',
-        59: 'Ori_m',
-        60: 'Gra_m',
-        61: 'LAcc_m',
+        # 57: 'Gyr_m',
+        # 58: 'Mag_m',
+        # 59: 'Ori_m',
+        # 60: 'Gra_m',
+        # 61: 'LAcc_m',
 
 
 

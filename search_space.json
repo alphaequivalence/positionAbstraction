@@ -1,0 +1,209 @@
+{
+    "Acc_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Acc_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "Acc_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Acc_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "Acc_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Acc_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+    "Gyr_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Gyr_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "Gyr_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Gyr_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "Gyr_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Gyr_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+
+    "Mag_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Mag_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "Mag_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Mag_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "Mag_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Mag_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+    "Ori_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Ori_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "Ori_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Ori_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "Ori_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Ori_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+    "Gra_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Gra_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "Gra_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Gra_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "Gra_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Gra_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+    "LAc_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "LAc_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "LAc_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "LAc_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "LAc_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "LAc_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+    "Pre_numfilters_0": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Pre_kernelsize_0": {
+	    "_type": "choice",
+        "_value": [7, 11, 17] 
+    },
+    "Pre_numfilters_1": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Pre_kernelsize_1": {
+	    "_type": "choice",
+        "_value": [5, 7, 11, 17] 
+    },
+    "Pre_numfilters_2": {
+	    "_type": "choice",
+        "_value": [8, 16, 32, 64]
+    },
+    "Pre_kernelsize_2": {
+	    "_type": "choice",
+        "_value": [2, 3, 5, 7, 11, 17] 
+    },
+
+
+
+    "All_viewReprDim_3": {
+        "_type": "choice",
+        "_value": [10, 15, 20, 25, 30, 35, 40]
+    },
+    "All_hiddenunits_3": {
+        "_type": "choice",
+        "_value": [128, 256, 512, 1024, 2048]
+    },
+    "All_dropout_3": {
+        "_type": "uniform",
+        "_value": [0.3, 0.9]
+    },
+
+    "All_ccaSpaceDim_3": {
+        "_type": "choice",
+        "_value": [10, 15, 20, 25, 30, 35, 40]
+    },
+}
