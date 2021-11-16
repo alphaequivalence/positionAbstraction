@@ -2,9 +2,11 @@
 
 Code accompanying the paper
 
-> [Reduction of the Position Bias via Multi-Level Learning for Activity Recognition](/docs/412.pdf)
+> [Reduction of the Position Bias via Multi-Level Learning for Activity Recognition](/docs/417.pdf)
+>
+> [Supplementary file](/docs/417_suppl.pdf)
 
-The relative position of sensors on the human body generates two types of data: one relating to the movement of the position w.r.t. the body and another relating to the movement of the whole body w.r.t. the environment. These two data give two complementary and orthogonal components contributing differently to the activity recognition process. In this paper, we introduce an original approach that allows us to separate these data and to abstract away the exact on-body position of the sensors from the considered activities. We learn for these two totally orthogonal components (i) the bias that stems from the position and (ii) the actual patterns of the considered activities rid of these positional biases. We perform a thorough empirical evaluation of our approach on the SHL dataset featuring an on-body sensor deployment in a real-life setting. Obtained results show that we are able to substantially improve recognition performances. These results pave the way for the development of models that are agnostic to both the position of the data generators and the target users. Constructed models are found to be robust to evolving environments such as those we are confronted with in Internet of Things applications.
+The relative position of sensors placed on specific body parts generates two types of data related to (1) the movement of the body part w.r.t. the body and (2) the whole body w.r.t. the environment. These two data provide orthogonal and complementary components contributing differently to the activity recognition process. In this paper, we introduce an original approach that separates these data and abstracts away the sensors' exact on-body position from the considered activities. We learn for these two totally orthogonal components (i) the bias that stems from the position and (ii) the actual patterns of the activities abstracted from these positional biases. We perform a thorough empirical evaluation of our approach on the various datasets featuring on-body sensor deployment in real-life settings. Obtained results show substantial improvements in performances measured by the f1-score and pave the way for developing models that are agnostic to both the position of the data generators and the target users.
 
 
 
